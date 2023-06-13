@@ -28,7 +28,7 @@ jobs:
       - name: Checkout source tree
         uses: actions/checkout@v2
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.7.10
       - name: Install dependencies
@@ -48,7 +48,7 @@ jobs:
       - name: Checkout source tree
         uses: actions/checkout@v2
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.7.10
       - name: Install dependencies
@@ -68,7 +68,7 @@ jobs:
       - name: Checkout source tree
         uses: actions/checkout@v2
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.7.9
       - name: Install dependencies
@@ -101,7 +101,7 @@ jobs:
       - name: Setup bazelisk
         uses: ./.github/actions/setup-bazelisk
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.7.10
       - name: Setup Java
@@ -133,7 +133,7 @@ jobs:
       - name: Setup bazelisk
         uses: ./.github/actions/setup-bazelisk
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.7.10
       - name: Setup Java
@@ -171,7 +171,7 @@ jobs:
       - name: Setup bazelisk
         uses: ./.github/actions/setup-bazelisk
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.7.10
       - name: Setup Java
@@ -211,7 +211,7 @@ jobs:
       - name: Setup bazelisk
         uses: ./.github/actions/setup-bazelisk
       - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.7.10
       - name: Setup Java
