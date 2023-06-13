@@ -44,7 +44,7 @@ jobs:
             ${{ runner.os }}-bazel-node-tests-
             ${{ runner.os }}-bazel-build-
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 15
       - name: Setup Java
@@ -122,7 +122,7 @@ jobs:
       - name: Checkout source tree
         uses: actions/checkout@v2
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       - name: NPM install
