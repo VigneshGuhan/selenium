@@ -34,7 +34,7 @@ jobs:
       - name: Checkout source tree
         uses: actions/checkout@v2
       - name: Cache Bazel artifacts
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             ~/.cache/bazel-disk
@@ -84,7 +84,7 @@ jobs:
       - name: Checkout source tree
         uses: actions/checkout@v2
       - name: Cache Bazel artifacts
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             ~/.cache/bazel-disk
